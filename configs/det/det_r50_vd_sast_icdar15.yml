@@ -61,7 +61,7 @@ Train:
     name: SimpleDataSet
     data_dir: ./train_data/ch4_training_images
     label_file_list: [./train_data/train_icdar2015_label.txt]
-    ratio_list: [0.1, 0.45, 0.3, 0.15]
+    ratio_list: [1]
     transforms:
       - DecodeImage: # load image
           img_mode: BGR
